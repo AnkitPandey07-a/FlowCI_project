@@ -10,4 +10,7 @@ again dubara kr rha hoon commit push
 
 build kr rha hoon check
 
-coloning kr rha hoon
+coloning kr rha hoon 
+
+npm install repo dekhna 
+
