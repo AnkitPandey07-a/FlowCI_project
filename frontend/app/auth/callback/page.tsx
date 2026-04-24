@@ -4,27 +4,25 @@
 "use client"
 
 import { useEffect } from "react"
-import { useRouter, useSearchParams } from "next/navigation"
+import { useRouter} from "next/navigation"
 
-export default function AuthCallback() {
+export default function Callback() {
   const router = useRouter()
-  const searchParams = useSearchParams()
+  
 
-  useEffect(() => {
-    const token = searchParams.get("token")
-    const error = searchParams.get("error")
+    useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get("token");
 
-    if (error || !token) {
-      router.push("/login?error=auth_failed")
-      return
+      if (token) {
+        //ek hi key use kr rha hoon
+      localStorage.setItem("token", token); // ✅ auto save
+      router.push("/"); // home pe redirect
     }
+    
 
-    // JWT token save karo
-    localStorage.setItem("flowci_token", token)
-
-    // Dashboard pe bhejo
-    router.push("/dashboard")
-  }, [])
+   
+  },[])
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-950 text-white">

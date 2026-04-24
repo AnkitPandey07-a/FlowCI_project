@@ -34,10 +34,7 @@ router.get("/github/callback", async (req, res) => {
     },
   });
 
-  res.json({
-    user: userRes.data,
-    accessToken,
-  });
+  res.redirect(`http://localhost:3000/auth/callback?token=${accessToken}`);
 });
 
 export default router;

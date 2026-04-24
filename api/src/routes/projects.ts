@@ -1,11 +1,15 @@
 import express from "express";
 import axios from "axios";
+import { buildLogs } from "./webhook"; // 🔥 logs ko access karne ke liye
 
 const router = express.Router();
 
 // 👇 temporary storage (abhi DB nahi use kar rahe)
 let projects: any[] = [];
 
+router.get("/logs", (req, res) => {
+  res.json(buildLogs);
+});
 // ==============================
 // 🔹 1. GitHub se repos fetch
 // ==============================
