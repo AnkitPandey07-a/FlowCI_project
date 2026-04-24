@@ -15,5 +15,6 @@ coloning kr rha hoon
 npm install repo dekhna 
 again
 
+nrog chala ke check kr rha hoon logs aa rhe h ya nhi
 
 logss check kr rha hoon
