@@ -17,4 +17,4 @@ again
 
 nrog chala ke check kr rha hoon logs aa rhe h ya nhi
 
-logss check kr rha hoon
+logs check kr rha hoon dubara
