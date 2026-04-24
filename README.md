@@ -17,4 +17,6 @@ again
 
 nrog chala ke check kr rha hoon logs aa rhe h ya nhi
 
-logs check kr rha hoon dubara
+again logs chack kr rha hoon or build problem solve kr rha hoon
+
+
