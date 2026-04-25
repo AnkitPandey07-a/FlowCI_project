@@ -22,6 +22,9 @@ again logs chack kr rha hoon or build problem solve kr rha hoon
 
 commit kr ke dubara kr rha hoon check kr rha hoon
 
+deployement ka kaam kr rha hoon
+
+
 
 
 
