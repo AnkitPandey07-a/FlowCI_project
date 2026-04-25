@@ -30,8 +30,6 @@ fasvdhgavdchasdkhgafuyer  again bolgs and build problem
 
 abb hum history save kr rhe h uska block bnaye h abb dekhna h kya hota hai  
 
-link git ka dega
+link git 
 
-
-
-syggestion sahi kr rha hoon
+check kr a jhbfc s
